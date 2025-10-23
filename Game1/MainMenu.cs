@@ -29,9 +29,9 @@ namespace Game1
             Console.WriteLine("============" + NewLine);
             Console.WriteLine("Enter your selection, " + player1.Name + ":");
 
-            var menuSelection = Console.ReadLine();
+            var mainmenuSelection = Console.ReadLine();
 
-            switch (menuSelection?.ToLower().Trim())
+            switch (mainmenuSelection?.ToLower().Trim())
             {
                 case "start":
                 case "s":
